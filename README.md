@@ -1,3 +1,8 @@
+# Under Construction
+<h2>Example home page</h2>
+
+![Example screen](home.png)
+
 # AngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
