@@ -17,3 +17,6 @@
 .carousel-indicators .active {
     background-color: #000000 !important;
 }
+.card .ng-fa-icon{
+    font-size: 30px !important;
+}

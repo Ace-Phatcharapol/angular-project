@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {RouterLink, RouterOutlet} from '@angular/router';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,6 @@ import {RouterLink, RouterOutlet} from '@angular/router';
     <router-outlet />
   `,
   standalone: true,
-  imports: [RouterLink, RouterOutlet],
+  imports: [RouterLink, RouterOutlet, FontAwesomeModule],
 })
 export class AppComponent {}
