@@ -5,14 +5,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <nav>
-      <a routerLink="/">Home</a>
-      |
-      <a routerLink="/user">User</a>
-    </nav>
-    <router-outlet />
-  `,
+  // template: `
+  //   <nav>
+  //     <a routerLink="/">Home</a>
+  //     |
+  //     <a routerLink="/user">User</a>
+  //   </nav>
+    
+  // `,
+  templateUrl: './app.component.html',
   standalone: true,
   imports: [RouterLink, RouterOutlet, FontAwesomeModule],
 })
