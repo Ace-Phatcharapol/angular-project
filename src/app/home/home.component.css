@@ -28,7 +28,7 @@
     background-repeat: repeat-y;
     background-size: 100%;
     overflow-x: hidden;
-    
+    background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 80px !important;
     position: relative;
@@ -56,4 +56,7 @@
 }
 #form-subscribe .btn-subscribe:hover{
     background-color: #ee1212;
+}
+.home-contact .ng-fa-icon{
+    font-size: 35px !important;
 }

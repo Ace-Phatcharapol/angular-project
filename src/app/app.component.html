@@ -1,17 +1,25 @@
-<header>
+<header class="sticky-top">
 <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" routerLink="/">Active</a>
+    <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" routerLink="/user">User</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Login</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <a class="nav-link" href="#">Register</a>
   </li>
 </ul>
 </header>
 <router-outlet />
+<footer class="mt-5">
+  <ul class="nav justify-content-center border-top border-bottom py-3 mb-3">
+    <li class="nav-item"><a routerLink="/" class="nav-link px-2 text-muted">Home</a></li>
+    <li class="nav-item"><a routerLink="/user" class="nav-link px-2 text-muted">User</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+  </ul>
+  <p class="text-center text-muted">© 2024 Company, Inc</p>
+</footer>

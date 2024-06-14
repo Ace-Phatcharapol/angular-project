@@ -1,7 +1,8 @@
 import {Component} from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faUsers,faStore,faComments,faBriefcase,faTruckFast,faThumbsUp,faGlobe,faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
+import { faUsers,faStore,faComments,faBriefcase,faTruckFast,faThumbsUp,faGlobe,faHandHoldingHeart,faLocationDot,faPhone,faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import {FormGroup, FormControl, ReactiveFormsModule, Validators} from '@angular/forms';
 
 @Component({
@@ -20,6 +21,10 @@ export class HomeComponent {
   faGlobe = faGlobe;
   faTruckFast = faTruckFast;
   faHandHoldingHeart = faHandHoldingHeart;
+  faLocationDot = faLocationDot;
+  faPhone = faPhone;
+  faEnvelope = faEnvelope;
+  faFacebook = faFacebook;
 
   subscribeForm = new FormGroup({
     email: new FormControl('', [Validators.required, Validators.email]),
