@@ -6,3 +6,61 @@ html, body{
 .navbar .nav-link {
   color: #000000 !important;
 }
+
+@media (max-width: 1399.98px) {
+
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+    .video-block{
+        width: 100% !important;
+        height: 400px;
+    }
+    .grid-about-us{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .why-choose .col{
+        width: 50%;
+    }
+    .layout-email{
+        width: 50%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .banner{
+        height: auto !important;
+    }
+    .grid-about-us .col{
+        width: 50%;
+    }
+    .layout-target .row.d-flex {
+        width: 50%;
+    }
+    .layout-target .row.d-flex .col-6.col-sm-3{
+        width: 100%;
+    }
+    .layout-target .row.d-flex:nth-child(2){
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .home-contact .ng-fa-icon{
+        font-size: 25px !important;
+    }
+    .layout-contact{
+        flex-direction: column;
+    }
+    .layout-contact .col-6{
+        width: 100%;
+    }
+    .layout-contact .col-6.d-flex.ps-5.pe-3{
+        padding: 2rem !important;
+    }
+}

@@ -1,5 +1,5 @@
 .banner {
-    height: 700px !important;
+    height: 700px;
     object-fit: cover;
 }
 .carousel-control-next-icon,
@@ -58,5 +58,5 @@
     background-color: #ee1212;
 }
 .home-contact .ng-fa-icon{
-    font-size: 35px !important;
+    font-size: 35px;
 }
