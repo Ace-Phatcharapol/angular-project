@@ -2,3 +2,7 @@
 html, body{
     overflow-x: hidden;
 }
+
+.navbar .nav-link {
+  color: #000000 !important;
+}
